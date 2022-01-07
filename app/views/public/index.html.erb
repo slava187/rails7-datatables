@@ -1,0 +1,38 @@
+<h1>Welcome, this is the home page</h1>
+
+<button type="button"
+        class="btn btn-lg btn-danger"
+        data-bs-toggle="popover"
+        title="Popover title"
+        data-bs-content="Amazing content, right ?">
+        Click to toggle popover
+</button>
+
+<table id="example" class="display" style="width:100%" data-controller="example-table">
+  <head>
+    <tr>
+      <th>Lastname</th>
+      <th>Firstname</th>
+    </tr>
+  </head>
+  <body>
+    <tr>
+      <td>Messiani</td>
+      <td>Cristiano</td>
+    </tr>
+    <tr>
+      <td>Rolando</td>
+      <td>Esteban</td>
+    </tr>
+    <tr>
+      <td>Traoré</td>
+      <td>Adam</td>
+    </tr>
+  </body>
+</table>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    let table = new DataTable('#example')
+  });
+</script>
