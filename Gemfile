@@ -54,8 +54,6 @@ gem "bootsnap", require: false
 
 group :development, :test do
   gem "standard"
-  gem "ruby_audit"
-  gem "spektr"
 end
 
 group :development do
@@ -67,6 +65,9 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+
+  gem "ruby_audit"
+  gem "spektr"
 end
 
 group :test do
